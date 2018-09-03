@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dialog_horizontal_margin">24dp</dimen>
+    <dimen name="dialog_top_margin">20dp</dimen>
+    <dimen name="dialog_bottom_margin">0dp</dimen>
+
+    <!-- Stuff for laying out content -->
+
+    <dimen name="horizontal_line_height">1dp</dimen>
+
+    <dimen name="tiny_spacer">1dp</dimen>
+    <dimen name="small_spacer">2dp</dimen>
+    <dimen name="medium_spacer">4dp</dimen>
+    <dimen name="big_spacer">8dp</dimen>
+    <dimen name="large_spacer">16dp</dimen>
+    <dimen name="huge_spacer">32dp</dimen>
+
+</resources>
