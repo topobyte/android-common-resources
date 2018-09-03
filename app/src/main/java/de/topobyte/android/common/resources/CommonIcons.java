@@ -44,6 +44,11 @@ public class CommonIcons {
     iconUtil.setIcon(view, "common-icons/item_share.bvg");
   }
 
+  public void setBugs(TextView view)
+  {
+    iconUtil.setIcon(view, "common-icons/item_bugs.bvg");
+  }
+
   public void setCafe(TextView view)
   {
     iconUtil.setIcon(view, "common-icons/item_cafe.bvg");
