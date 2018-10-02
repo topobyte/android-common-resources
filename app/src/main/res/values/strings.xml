@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- feedback -->
+
+    <string name="fb_head1">Feedback</string>
+    <string name="fb_rate">Rate this app</string>
+    <string name="fb_mail">Send me an email</string>
+    <string name="fb_share">Share a link to this app</string>
+    <string name="fb_head2">Donating</string>
+    <string name="fb_donate_info">If you like this app you can give back by donating something:</string>
+    <string name="fb_donate1">Buy me a cup of coffee (donate 1€)</string>
+    <string name="fb_donate2">Buy me a beer (donate 2€)</string>
+    <string name="fb_donate5">Buy me a ticket for the cinema (donate 5€)</string>
+    <string name="fb_donate10">Buy me lunch at a restaurant (donate 10€)</string>
+
+    <string name="share_using">Share using</string>
+
+</resources>

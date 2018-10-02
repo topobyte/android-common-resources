@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- feedback -->
+
+    <string name="fb_head1">Feedback</string>
+    <string name="fb_rate">Bewertung für die App abgeben</string>
+    <string name="fb_mail">Schicken Sie mir eine Mail</string>
+    <string name="fb_share">Link zur App teilen</string>
+    <string name="fb_head2">Spenden</string>
+    <string name="fb_donate_info">Wenn Sie diese App mögen, können Sie sich bedanken, indem Sie etwas spenden:</string>
+    <string name="fb_donate1">Spendieren Sie mir eine Tasse Kaffee (1€ spenden)</string>
+    <string name="fb_donate2">Spendieren Sie mir ein Bier (2€ spenden)</string>
+    <string name="fb_donate5">Spendieren Sie mir eine Kinokarte (5€ spenden)</string>
+    <string name="fb_donate10">Spendieren Sie mir ein Mittagessen im Restaurant (10€ spenden)</string>
+
+    <string name="share_using">Teilen mit</string>
+
+</resources>
