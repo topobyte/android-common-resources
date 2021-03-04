@@ -22,7 +22,7 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'topobyte:bvg-android:0.0.3'
+    implementation 'de.topobyte:bvg-android:0.1.0'
 }
 
 uploadArchives {
