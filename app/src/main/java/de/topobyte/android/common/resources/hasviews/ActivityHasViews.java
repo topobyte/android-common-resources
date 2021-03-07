@@ -18,8 +18,9 @@
 package de.topobyte.android.common.resources.hasviews;
 
 import android.app.Activity;
-import android.support.annotation.IdRes;
 import android.view.View;
+
+import androidx.annotation.IdRes;
 
 public class ActivityHasViews implements HasViews {
 
