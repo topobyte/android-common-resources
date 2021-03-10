@@ -16,5 +16,5 @@ SvgToBvg -strategy int_delta "$DIR/dice.svg" "$TARGET/item_dice.bvg"
 SvgToBvg -strategy int_delta "$DIR/map.svg" "$TARGET/item_map.bvg"
 SvgToBvg -strategy int_delta "$DIR/bugs.svg" "$TARGET/item_bugs.bvg"
 
-/home/z/git/android-res-utils/pngs_from_svg.py "$DIR/common_globe.svg" "$TARGET2" 36 -s _36
-/home/z/git/android-res-utils/pngs_from_svg.py "$DIR/common_globe.svg" "$TARGET2" 48 -s _48
+~/github/sebkur/android-res-utils/pngs_from_svg.py "$DIR/common_globe.svg" "$TARGET2" 36 -s _36
+~/github/sebkur/android-res-utils/pngs_from_svg.py "$DIR/common_globe.svg" "$TARGET2" 48 -s _48
