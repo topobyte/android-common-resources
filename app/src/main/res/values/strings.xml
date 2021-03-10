@@ -7,6 +7,7 @@
     <string name="fb_rate">Rate this app</string>
     <string name="fb_mail">Send me an email</string>
     <string name="fb_share">Share a link to this app</string>
+    <string name="fb_community">Join the community</string>
     <string name="fb_head2">Donating</string>
     <string name="fb_donate_info">If you like this app you can give back by donating something:</string>
     <string name="fb_donate1">Buy me a cup of coffee (donate 1€)</string>
