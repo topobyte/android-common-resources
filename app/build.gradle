@@ -26,7 +26,9 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'de.topobyte:bvg-android:0.1.0'
+    implementation('de.topobyte:bvg-android:0.1.0') {
+        exclude group: 'com.google.android'
+    }
 }
 
 task sourcesJar(type: Jar) {
