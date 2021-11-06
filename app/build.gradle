@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
 
 group = pGroup
 version = pVersion
 
 if (project.hasProperty("topobyte")) {
+    apply plugin: 'maven'
     apply from: 'file:///' + System.getProperty("user.home") \
         + '/.gradle/topobyte.gradle'
 }
