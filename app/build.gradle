@@ -5,8 +5,7 @@ version = pVersion
 
 if (project.hasProperty("topobyte")) {
     apply plugin: 'maven'
-    apply from: 'file:///' + System.getProperty("user.home") \
-        + '/.gradle/topobyte.gradle'
+    apply from: 'file:///' + System.getProperty("user.home") + '/.gradle/topobyte.gradle'
 }
 
 android {
