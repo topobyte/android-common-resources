@@ -4,7 +4,7 @@ wrapper {
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
@@ -20,7 +20,7 @@ allprojects {
         maven {
             url 'http://mvn.slimjars.com'
         }
-        jcenter()
+        mavenCentral()
         google()
     }
 }
