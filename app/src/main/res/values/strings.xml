@@ -17,4 +17,10 @@
 
     <string name="share_using">Share using</string>
 
+    <!-- misc -->
+
+    <string name="cr_more_apps">More Apps</string>
+    <string name="cr_support_us">Support us</string>
+    <string name="cr_install_using_google_play">Install using Google Play</string>
+
 </resources>

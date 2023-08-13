@@ -17,4 +17,10 @@
 
     <string name="share_using">Teilen mit</string>
 
+    <!-- misc -->
+
+    <string name="cr_more_apps">Andere Apps</string>
+    <string name="cr_support_us">Unterstützen Sie uns</string>
+    <string name="cr_install_using_google_play">Auf Google Play installieren</string>
+
 </resources>
