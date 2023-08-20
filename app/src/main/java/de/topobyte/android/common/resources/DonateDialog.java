@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -67,6 +68,32 @@ public class DonateDialog extends DialogFragment
         (dialog, id) -> {
           // ignore
         });
+
+    CommonIcons commonIcons = new CommonIcons(getContext(), 36);
+    TextView textView = view.findViewById(R.id.textView2);
+    switch (value) {
+      default:
+      case THANK_RATE:
+        // should not happen here.
+        break;
+      case THANK_1:
+        commonIcons.setCafe(textView);
+        textView.setText(R.string.fb_donate1);
+        break;
+      case THANK_2:
+        commonIcons.setBeer(textView);
+        textView.setText(R.string.fb_donate2);
+        break;
+      case THANK_5:
+        commonIcons.setCinema(textView);
+        textView.setText(R.string.fb_donate5);
+        break;
+      case THANK_10:
+        commonIcons.setRestaurant(textView);
+        textView.setText(R.string.fb_donate10);
+        break;
+    }
+
 
     Button button = view.findViewById(R.id.button);
     button.setOnClickListener(v -> {
