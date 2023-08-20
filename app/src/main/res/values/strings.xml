@@ -10,10 +10,10 @@
     <string name="fb_community">Join the community</string>
     <string name="fb_head2">More Apps</string>
     <string name="fb_donate_info">If you like this app you can give back by donating something:</string>
-    <string name="fb_donate1">Buy me a cup of coffee (donate 1€)</string>
-    <string name="fb_donate2">Buy me a beer (donate 2€)</string>
-    <string name="fb_donate5">Buy me a ticket for the cinema (donate 5€)</string>
-    <string name="fb_donate10">Buy me lunch at a restaurant (donate 10€)</string>
+    <string name="fb_donate1">Buy me a cup of coffee (donate\u00A01€)</string>
+    <string name="fb_donate2">Buy me a beer (donate\u00A02€)</string>
+    <string name="fb_donate5">Buy me a ticket for the cinema (donate\u00A05€)</string>
+    <string name="fb_donate10">Buy me lunch at a restaurant (donate\u00A010€)</string>
 
     <string name="share_using">Share using</string>
 
