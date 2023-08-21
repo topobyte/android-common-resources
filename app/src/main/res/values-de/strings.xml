@@ -15,12 +15,19 @@
     <string name="fb_donate5">Spendieren Sie mir eine Kinokarte (5€\u00A0spenden)</string>
     <string name="fb_donate10">Spendieren Sie mir ein Mittagessen im Restaurant (10€\u00A0spenden)</string>
 
-    <string name="share_using">Teilen mit</string>
+    <string name="cr_share_using">Teilen mit</string>
 
     <!-- misc -->
 
     <string name="cr_more_apps">Andere Apps</string>
     <string name="cr_support_us">Unterstützen Sie uns</string>
     <string name="cr_install_using_google_play">Auf Google Play installieren</string>
+
+    <string name="cr_free_map">Kostenlose Karte</string>
+    <string name="cr_premium_map">Premium Karte</string>
+    <string name="cr_transit_map">Netzlinienplan</string>
+
+    <string name="cr_dialog_install_app_title">App installieren</string>
+    <string name="cr_dialog_install_app_text">%1$s für %2$s herunterladen</string>
 
 </resources>

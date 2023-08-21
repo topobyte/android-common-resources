@@ -15,12 +15,19 @@
     <string name="fb_donate5">Buy me a ticket for the cinema (donate\u00A05€)</string>
     <string name="fb_donate10">Buy me lunch at a restaurant (donate\u00A010€)</string>
 
-    <string name="share_using">Share using</string>
+    <string name="cr_share_using">Share using</string>
 
     <!-- misc -->
 
     <string name="cr_more_apps">More Apps</string>
     <string name="cr_support_us">Support us</string>
     <string name="cr_install_using_google_play">Install using Google Play</string>
+
+    <string name="cr_free_map">free map</string>
+    <string name="cr_premium_map">premium map</string>
+    <string name="cr_transit_map">transit map</string>
+
+    <string name="cr_dialog_install_app_title">Install app</string>
+    <string name="cr_dialog_install_app_text">Download %1$s for %2$s</string>
 
 </resources>
