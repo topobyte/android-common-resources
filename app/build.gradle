@@ -1,21 +1,21 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 group = pGroup
 version = pVersion
 
 if (project.hasProperty("topobyte")) {
-    apply plugin: 'maven'
     apply from: 'file:///' + System.getProperty("user.home") + '/.gradle/topobyte.gradle'
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     buildToolsVersion '30.0.3'
-    namespace "de.topobyte.android.common.resources"
+    namespace 'de.topobyte.android.common.resources'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 31
+        targetSdkVersion 33
     }
     buildTypes {
         release {
@@ -23,21 +23,31 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
+}
+
+project.tasks.withType(GenerateModuleMetadata) {
+    enabled = true
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'de.topobyte:android-intent-utils:0.1.0'
     implementation('de.topobyte:bvg-android:0.1.0') {
         exclude group: 'com.google.android'
     }
 }
 
-task sourcesJar(type: Jar) {
-    classifier = 'sources'
-    from android.sourceSets.main.java.srcDirs
-}
-
-artifacts {
-    archives sourcesJar
+publishing {
+  publications {
+    release(MavenPublication) {
+      afterEvaluate {
+        from components.release
+      }
+    }
+  }
 }
