@@ -9,13 +9,12 @@ if (project.hasProperty("topobyte")) {
 }
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion '30.0.3'
     namespace = 'de.topobyte.android.common.resources'
 
     defaultConfig {
+        compileSdk = 35
         minSdkVersion 14
-        targetSdkVersion 33
+        targetSdkVersion 35
     }
     buildTypes {
         release {
