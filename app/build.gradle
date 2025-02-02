@@ -42,11 +42,11 @@ dependencies {
 }
 
 publishing {
-  publications {
-    release(MavenPublication) {
-      afterEvaluate {
-        from components.release
-      }
+    publications {
+        release(MavenPublication) {
+            afterEvaluate {
+                from components.release
+            }
+        }
     }
-  }
 }
